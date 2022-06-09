@@ -36,7 +36,7 @@ npm run lint
     [*] - init (vue2 через vue cli)
     [] - v0.1.0
       [*] - feature-1 - README.md, feature list
-      [] - feature-2 - vuetify init
+      [*] - feature-2 - vuetify init
       [] - feature-3 - netlify
       [] - feature-4 - firebase init
       [] - feature-5 - Компонент EvSettingsItem
