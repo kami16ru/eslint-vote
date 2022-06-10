@@ -92,6 +92,9 @@
 </template>
 
 <script>
+import { getDocs, collection } from 'firebase/firestore'
+import { db } from '@/plugins/firebase'
+
 export default {
   name: 'HelloWorld',
 
@@ -145,7 +148,30 @@ export default {
         text: 'Frequently Asked Questions',
         href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions'
       }
-    ]
-  })
+    ],
+    rules: []
+  }),
+  async mounted () {
+    this.rules = await this.fetchRules()
+  },
+  watch: {
+    rules (val) {
+      console.log(val)
+    }
+  },
+  methods: {
+    fetchRules () {
+      return new Promise((resolve) => {
+        getDocs(collection(db, 'rules')).then((querySnapshot) => {
+          const rules = querySnapshot.docs.map((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            return { ...doc.data(), id: doc.id }
+          })
+
+          resolve(rules)
+        }).catch((e) => console.log(e))
+      })
+    }
+  }
 }
 </script>

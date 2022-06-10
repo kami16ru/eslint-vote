@@ -1,0 +1,348 @@
+{
+  "rules": [
+    {
+      "title": "quotes",
+      "id": 1,
+      "value": 2,
+      "params": "single"
+    },
+    {
+      "title": "indent",
+      "id": 2,
+      "value": 2,
+      "params": 2
+    },
+    {
+      "title": "semi",
+      "id": 3,
+      "value": 2,
+      "params": "never"
+    },
+    {
+      "title": "no-tabs",
+      "id": 4,
+      "value": 2
+    },
+    {
+      "title": "object-curly-spacing",
+      "id": 5,
+      "value": 2,
+      "params": "always"
+    },
+    {
+      "title": "computed-property-spacing",
+      "id": 6,
+      "value": 2,
+      "params": "never"
+    },
+    {
+      "title": "comma-dangle",
+      "id": 7,
+      "value": 2,
+      "params": "only-multiline"
+    },
+    {
+      "title": "array-bracket-newline",
+      "id": 8,
+      "value": 0
+    },
+    {
+      "title": "array-bracket-spacing",
+      "id": 9,
+      "value": 2,
+      "params": "never"
+    },
+    {
+      "title": "no-multiple-empty-lines",
+      "id": 10,
+      "value": 2,
+      "params": { "max": 1, "maxEOF": 0, "maxBOF": 0 }
+    },
+    {
+      "title": "keyword-spacing",
+      "id": 11,
+      "value": 2,
+      "params": { "before": true, "after": true }
+    },
+    {
+      "title": "space-infix-ops",
+      "id": 12,
+      "value": 2
+    },
+    {
+      "title": "space-before-blocks",
+      "id": 13,
+      "value": 2
+    },
+    {
+      "title": "space-before-function-paren",
+      "id": 14,
+      "value": 2,
+      "params": { "anonymous": "always", "named": "never", "asyncArrow": "always" }
+    },
+    {
+      "title": "no-regex-spaces",
+      "id": 15,
+      "value": 0
+    },
+    {
+      "title": "no-unused-vars",
+      "id": 16,
+      "value": 0
+    },
+    {
+      "title": "no-mixed-spaces-and-tabs",
+      "id": 17,
+      "value": 0
+    },
+    {
+      "title": "prefer-const",
+      "id": 18,
+      "value": 2
+    },
+    {
+      "title": "prefer-destructuring",
+      "id": 19,
+      "value": 2,
+      "params": {
+        "AssignmentExpression": {
+          "array": false,
+          "object": false
+        },
+        "VariableDeclarator": {
+          "array": true,
+          "object": true
+        }
+      },
+      "additionalParams": {
+        "enforceForRenamedProperties": false
+      }
+    },
+    {
+      "title": "arrow-parens",
+      "id": 20,
+      "value": 2,
+      "params": "always"
+    },
+    {
+      "title": "arrow-spacing",
+      "id": 21,
+      "value": 2
+    },
+    {
+      "title": "no-var",
+      "id": 22,
+      "value": 2
+    },
+    {
+      "title": "no-undef",
+      "id": 23,
+      "value": 0
+    },
+    {
+      "title": "no-template-curly-in-string",
+      "id": 24,
+      "value": 1
+    },
+    {
+      "title": "consistent-return",
+      "id": 25,
+      "value": 0
+    },
+    {
+      "title": "array-callback-return",
+      "id": 26,
+      "value": 1
+    },
+    {
+      "title": "eqeqeq",
+      "id": 27,
+      "value": 2
+    },
+    {
+      "title": "no-alert",
+      "id": 28,
+      "value": 0
+    },
+    {
+      "title": "no-caller",
+      "id": 29,
+      "value": 2
+    },
+    {
+      "title": "no-eq-null",
+      "id": 30,
+      "value": 2
+    },
+    {
+      "title": "no-eval",
+      "id": 31,
+      "value": 2
+    },
+    {
+      "title": "no-extend-native",
+      "id": 32,
+      "value": 1
+    },
+    {
+      "title": "no-extra-bind",
+      "id": 33,
+      "value": 1
+    },
+    {
+      "title": "no-extra-label",
+      "id": 34,
+      "value": 1
+    },
+    {
+      "title": "no-floating-decimal",
+      "id": 35,
+      "value": 2
+    },
+    {
+      "title": "no-loop-func",
+      "id": 36,
+      "value": 1
+    },
+    {
+      "title": "no-new-func",
+      "id": 37,
+      "value": 2
+    },
+    {
+      "title": "no-new-wrappers",
+      "id": 38,
+      "value": 1
+    },
+    {
+      "title": "no-throw-literal",
+      "id": 39,
+      "value": 2
+    },
+    {
+      "title": "prefer-promise-reject-errors",
+      "id": 40,
+      "value": 2
+    },
+    {
+      "title": "for-direction",
+      "id": 41,
+      "value": 2
+    },
+    {
+      "title": "getter-return",
+      "id": 42,
+      "value": 2
+    },
+    {
+      "title": "no-await-in-loop",
+      "id": 43,
+      "value": 2
+    },
+    {
+      "title": "no-compare-neg-zero",
+      "id": 44,
+      "value": 2
+    },
+    {
+      "title": "no-catch-shadow",
+      "id": 45,
+      "value": 1
+    },
+    {
+      "title": "no-shadow-restricted-names",
+      "id": 46,
+      "value": 2
+    },
+    {
+      "title": "callback-return",
+      "id": 47,
+      "value": 2
+    },
+    {
+      "title": "handle-callback-err",
+      "id": 48,
+      "value": 2
+    },
+    {
+      "title": "no-path-concat",
+      "id": 49,
+      "value": 1
+    },
+    {
+      "title": "prefer-arrow-callback",
+      "id": 50,
+      "value": 1
+    },
+
+    {
+      "title": "vue/html-indent",
+      "id": 51,
+      "value": 2,
+      "params": 2
+    },
+    {
+      "title": "vue/no-v-html",
+      "id": 52,
+      "value": 0
+    },
+    {
+      "title": "vue/valid-v-on",
+      "id": 53,
+      "value": 0
+    },
+    {
+      "title": "vue/multiline-html-element-content-newline",
+      "id": 54,
+      "value": 0
+    },
+    {
+      "title": "vue/singleline-html-element-content-newline",
+      "id": 55,
+      "value": 0
+    },
+    {
+      "title": "vue/html-closing-bracket-spacing",
+      "id": 56,
+      "value": 0
+    },
+    {
+      "title": "vue/html-self-closing",
+      "id": 57,
+      "value": 0,
+      "params": {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        }
+      }
+    },
+    {
+      "title": "vue/max-attributes-per-line",
+      "id": 58,
+      "value": 2,
+      "params": {
+        "singleline": 4,
+        "multiline": {
+          "max": 1
+        }
+      }
+    },
+    {
+      "title": "vue/valid-v-slot",
+      "id": 59,
+      "value": 0
+    },
+    {
+      "title": "vue/attribute-hyphenation",
+      "id": 60,
+      "value": 0
+    },
+    {
+      "title": "vue/no-unused-vars",
+      "id": 61,
+      "value": 0
+    }
+  ]
+}
